@@ -17,19 +17,6 @@ def check(string):
             check(string)
 
 
-
-def compare(string):
-    if string[0] == " ":
-        string = string.replace(string[0],'')
-    if string[-1] == " ":
-        string = string.replace(string[-1],'')
-    if string[0] != string[-1]:
-        return False
-    else:
-        length(string)
-
-
-
 def prepare(string):
     string = string.strip()
     string = string.lower()
@@ -42,4 +29,4 @@ pali = check(userString)
 print(pali)
 
 
-#print(check(newo))
+
